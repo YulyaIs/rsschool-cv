@@ -1,4 +1,153 @@
-blockquote {
-  background: lightgreen;
-  color: darkgreen;
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.header {
+    background: grey;
+}
+
+.nav {
+    text-align: right;
+    font-size: 20px;
+    font-style: arial;
+    word-spacing: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background: grey;
+    width: 100%;
+    height: 70%;
+
+}
+
+.leftbox {
+    background: lightyellow;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.img {
+    display: block;
+    text-align: center;
+}
+
+.subject {
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-right: 20px;
+    text-align: center;
+    border: 3px grey solid;
+    width: 279px;
+    background: lavender;   
+}
+
+.skills {
+    height: 100%;    
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.list {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 40px;
+}
+
+.rightbox {
+    
+}
+
+
+.headline {
+    font-size: 25px;
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: lavender;
+    color: black;    
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;   
+}
+
+.code {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.title1 {
+    text-decoration: underline;
+}
+
+.list1 {
+    
+}
+
+.email {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.footer {
+    background: lavender;
+    text-align: right;
+    font-size: 20px;
+    font-style: arial;
+    word-spacing: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
